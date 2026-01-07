@@ -5,9 +5,9 @@ defense = int(input("勇者の守備力："))
 print("なんとスライムたちは合体して体当たりしてきた！")
 sum = 0
 
-for i in range (1,len(offenses)+1):
-    print(f"スライム{i}が現れた！")
-    sum += offenses[i-1]
+for i in range (len(offenses)):
+    print(f"スライム{i+1}が現れた！")
+    sum += offenses[i]
 print("なんとスライムたちは合体して体当たりしてきた！")
 damage = sum - defense
 if(damage > 0):

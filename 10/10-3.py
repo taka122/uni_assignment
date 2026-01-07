@@ -13,7 +13,7 @@ print("-------")
 for i in range(0, 7 * 9, 1):
     cell = map[i]
     if cell == 0:
-        print(" ", end="")
+        print("あ", end="")
     elif cell == 1:
         print("*", end="")
     else:
